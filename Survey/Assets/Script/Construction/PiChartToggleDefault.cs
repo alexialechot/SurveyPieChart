@@ -138,7 +138,7 @@ public class PiChartToggleDefault : MonoBehaviour {
     //----------------------------------------------------------------------------------------------------------
     //------------------------------------------------ ENTER ---------------------------------------------------
     //----------------------------------------------------------------------------------------------------------
-    // call with Enter Button
+    // called with Enter Button
     public void Enter()
     {
         // Only if something is selected
@@ -213,7 +213,7 @@ public class PiChartToggleDefault : MonoBehaviour {
     //----------------------------------------------------------------------------------------------------------
     //------------------------------------------------ THANKS ---------------------------------------------------
     //----------------------------------------------------------------------------------------------------------
-    // call thanks page. called in the Enter Button 
+    // call thanks page. Called with the Enter Button 
     public void Thanks()
     {
         thanks.GetComponent<Image>().enabled = true;
