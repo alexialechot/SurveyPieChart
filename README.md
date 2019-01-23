@@ -6,14 +6,14 @@ App that makes a percentage / Pie Chart / of the answers in realtime.
 
 
 # CONSTRUCTION
-### Buttons only:
+### OptionsButton Scene
 - Script on the GameObject "Pie"
 - > Assets/Script/Contruction/PieChart.cs
 
 ![Screenshot](Screenshot/ConstructionScene/Buttons.png)
 
 
-### Toggle Buttons:
+### 3OptionsToggle Scene
 - Multiple choice
 - Enter button (only when something is selected)
 - Thanks page (3s.)
@@ -24,7 +24,7 @@ App that makes a percentage / Pie Chart / of the answers in realtime.
 ![Screenshot](Screenshot/ConstructionScene/Toggle.png)
 
 
-### ToggleGroup Buttons:
+### 3OptionsToggleGroup Scene
 - One choice
 - Enter button (only when something is selected)
 - Thanks page (3s.)
@@ -51,7 +51,7 @@ Same Script
 ### Enter Button:
 
 -> in the inspector:
-- On click() called the "Enter" public function inside the script
+- On click () called the "Enter" public function inside the script
 - Script on the GameObject "Pie"
 
 ![Screenshot](Screenshot/EnterButton.png)
@@ -59,7 +59,7 @@ Same Script
 ### Toggle Option:
 
 -> in the inspector:
-- On click() called the "TimeOut" public function inside the script
+- On Value Changed (Boolean) called the "TimeOut" public function inside the script
 - Script on the GameObject "Pie"
 - This function reset the options if no ones press enter in the next 60s.
 
