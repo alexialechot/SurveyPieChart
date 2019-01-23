@@ -1,4 +1,4 @@
-# Survey - PieChart - Unity 2D
+# Simple Survey - PieChart - Unity 2D
 
 
 #### Unity 2D - 2018.3.1f1
@@ -37,13 +37,14 @@ Same Script
 
 ![Screenshot](Screenshot/ConstructionScene/ToggleGroup.png)
 
-# Don't Forget!
+# How to use
 
 ### Pie GameObject:
 
 -> in the inspector:
 - The main script is on the GameObject "Pie" 
 - Don't forget to link all the elements! -> Like below 
+- Change the size of all the arrays to change the number of buttons & add/delete the involved GameObject  
 
 ![Screenshot](Screenshot/GameObjectPie.png)
 
