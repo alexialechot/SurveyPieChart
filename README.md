@@ -2,7 +2,7 @@
 
 
 #### Unity 2D - 2018.3.1f1
-App that make a percentage / Pie Chart / of the clicks on the buttons.
+App that make a percentage / Pie Chart / of the answers in realtime.
 
 
 # CONSTRUCTION
