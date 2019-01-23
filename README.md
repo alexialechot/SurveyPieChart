@@ -16,7 +16,6 @@ Unity 2D app that make a percentage / Pie Chart / of the clicks on the buttons.
 - Enter button (only when something is selected)
 - Thanks page (3s.)
 - Reset timer (60s.)
-- Participants number
 - > Assets/Script/Contruction/PieChartToggleDefault.cs _*_
 
 ![Screenshot](img/Toggle.png)
@@ -27,7 +26,6 @@ Unity 2D app that make a percentage / Pie Chart / of the clicks on the buttons.
 - Enter button (only when something is selected)
 - Thanks page (3s.)
 - Reset timer (60s.)
-- Participants number
 - > Assets/Script/Contruction/PieChartToggleDefault.cs _*_
 
 **_*_**
