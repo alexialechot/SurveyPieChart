@@ -39,6 +39,14 @@ Same Script
 
 # Don't Forget!
 
+### Pie GameObject:
+
+-> in the inspector:
+- The main script is on the GameObject "Pie" 
+- Don't forget to link all the elements! -> Like below 
+
+![Screenshot](Screenshot/GameObjectPie.png)
+
 ### Enter Button:
 
 -> in the inspector:
