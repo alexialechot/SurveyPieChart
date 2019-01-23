@@ -39,7 +39,7 @@ Same Script
 
 # Don't Forget!
 
-### Enter Button
+### Enter Button:
 
 -> in the inspector:
 - On click() called the "Enter" public function inside the script
@@ -47,7 +47,7 @@ Same Script
 
 ![Screenshot](Screenshot/EnterButton.png)
 
-### Toggle Option
+### Toggle Option:
 
 -> in the inspector:
 - On click() called the "TimeOut" public function inside the script
