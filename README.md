@@ -10,7 +10,7 @@ App that make a percentage / Pie Chart / of the clicks on the buttons.
 - Script on the GameObject "Pie"
 - > Assets/Script/Contruction/PieChart.cs
 
-![Screenshot](img/ConstructionScene/Buttons.png)
+![Screenshot](Screenshot/ConstructionScene/Buttons.png)
 
 
 ### Toggle Buttons:
@@ -21,7 +21,7 @@ App that make a percentage / Pie Chart / of the clicks on the buttons.
 - Script on the GameObject "Pie"
 - > Assets/Script/Contruction/PieChartToggleDefault.cs _*_
 
-![Screenshot](img/ConstructionScene/Toggle.png)
+![Screenshot](Screenshot/ConstructionScene/Toggle.png)
 
 
 ### ToggleGroup Buttons:
@@ -35,7 +35,7 @@ App that make a percentage / Pie Chart / of the clicks on the buttons.
 **_*_**
 Same Script 
 
-![Screenshot](img/ConstructionScene/ToggleGroup.png)
+![Screenshot](Screenshot/ConstructionScene/ToggleGroup.png)
 
 # Don't Forget!
 
@@ -45,7 +45,7 @@ Same Script
 - On click() called the "Enter" public function inside the script
 - Script on the GameObject "Pie"
 
-![Screenshot](img/EnterButton.png)
+![Screenshot](Screenshot/EnterButton.png)
 
 ### Toggle Option
 
@@ -54,4 +54,4 @@ Same Script
 - Script on the GameObject "Pie"
 - This function reset the options if no ones press enter in the next 60s.
 
-![Screenshot](img/ToggleOption.png)
+![Screenshot](Screenshot/ToggleOption.png)
