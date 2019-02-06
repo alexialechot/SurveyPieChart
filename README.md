@@ -64,3 +64,6 @@ Same Script
 - This function reset the options if no ones press enter in the next 60s.
 
 ![Screenshot](Screenshot/ToggleOption.png)
+
+
+&copy; 2018 [AlexLechot](http://alexlechot.ch)
