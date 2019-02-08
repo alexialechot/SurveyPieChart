@@ -16,7 +16,6 @@ public class PieChartToggle : MonoBehaviour
     public Toggle[] toggleOptions;
     public Image[] toggleBackgrounds;
     public Image[] toggleCheckmarks;
-    public Image[] toggleCheckmarksDeco;
 
     public Text[] textTotalOptions;
     public int[] totalOptions;
@@ -50,15 +49,15 @@ public class PieChartToggle : MonoBehaviour
             textPercentages[i].color = PieColors[i];
         }
         //set the colors of the button
-        for (int i = 0; i < toggleBackgrounds.Length; i++)
-        {
-            toggleBackgrounds[i].color = PieColors[i];
-        }
+        //for (int i = 0; i < toggleBackgrounds.Length; i++)
+        //{
+        //    toggleBackgrounds[i].color = PieColors[i];
+        //}
         //set the colors of the button checkmark
-        for (int i = 0; i < toggleCheckmarks.Length; i++)
-        {
-            toggleCheckmarks[i].color = PieColors[i];
-        }
+        //for (int i = 0; i < toggleCheckmarks.Length; i++)
+        //{
+        //    toggleCheckmarks[i].color = PieColors[i];
+        //}
         for (int i = 0; i < toggleOptions.Length; i++)
         {
             textTotalOptions[i].text = totalOptions[i].ToString();
@@ -121,7 +120,7 @@ public class PieChartToggle : MonoBehaviour
             {
                 if (toggleOptions[i].isOn)
                 {
-                    toggleCheckmarksDeco[i].GetComponent<Image>().enabled = true;
+                    toggleCheckmarks[i].GetComponent<Image>().enabled = true;
                     buttonEnter.GetComponent<Button>().enabled = true;
                     //ColorBlock colors = buttonEnter.colors;
                     //colors.normalColor = new Color32(255, 0, 0, 255);
@@ -129,7 +128,7 @@ public class PieChartToggle : MonoBehaviour
                 }
                else
                {
-                   toggleCheckmarksDeco[i].GetComponent<Image>().enabled = false;
+                   toggleCheckmarks[i].GetComponent<Image>().enabled = false;
                 }
            }
 
