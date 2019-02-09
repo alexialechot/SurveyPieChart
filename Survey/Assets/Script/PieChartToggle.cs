@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class PieChartToggle : MonoBehaviour
 {
-    public int OptionsTotal;
-
     public Text totalText;
     public int total = 0;
     public Text totalVisiteursText;
