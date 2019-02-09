@@ -4,8 +4,35 @@
 #### Unity 2D - 2018.3.1f1
 App that makes a percentage / Pie Chart / of the answers in realtime.
 
+# How to use 
 
-# CONSTRUCTION
+### Pie GameObject:
+
+-> in the inspector:
+- The main script is on the GameObject "Pie" 
+- Don't forget to link all the elements! -> Like below 
+- Change the size of all the arrays to change the number of buttons & add/delete the involved GameObject  
+
+![Screenshot](Screenshot/GameObjectPie.png)
+
+### Enter Button:
+
+-> in the inspector:
+- On click () called the "Enter" public function inside the script
+- Script on the GameObject "Pie"
+
+![Screenshot](Screenshot/EnterButton.png)
+
+### Toggle Option:
+
+-> in the inspector:
+- On Value Changed (Boolean) called the "TimeOut" public function inside the script
+- Script on the GameObject "Pie"
+- This function reset the options if no ones press enter in the next 60s.
+
+![Screenshot](Screenshot/ToggleOption.png)
+
+# CONSTRUCTION SCENES
 ### OptionsButton Scene
 - Script on the GameObject "Pie"
 - > Assets/Script/Contruction/PieChart.cs
@@ -36,34 +63,6 @@ App that makes a percentage / Pie Chart / of the answers in realtime.
 Same Script 
 
 ![Screenshot](Screenshot/ConstructionScene/ToggleGroup.png)
-
-# How to use
-
-### Pie GameObject:
-
--> in the inspector:
-- The main script is on the GameObject "Pie" 
-- Don't forget to link all the elements! -> Like below 
-- Change the size of all the arrays to change the number of buttons & add/delete the involved GameObject  
-
-![Screenshot](Screenshot/GameObjectPie.png)
-
-### Enter Button:
-
--> in the inspector:
-- On click () called the "Enter" public function inside the script
-- Script on the GameObject "Pie"
-
-![Screenshot](Screenshot/EnterButton.png)
-
-### Toggle Option:
-
--> in the inspector:
-- On Value Changed (Boolean) called the "TimeOut" public function inside the script
-- Script on the GameObject "Pie"
-- This function reset the options if no ones press enter in the next 60s.
-
-![Screenshot](Screenshot/ToggleOption.png)
 
 
 &copy; 2018 [AlexLechot](http://alexlechot.ch)
