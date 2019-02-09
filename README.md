@@ -67,7 +67,7 @@ Same Script
 # World Wild Web SCENES
 
 ### Q2-2OptionsTogggleGroup
-![Screenshot](Screenshot/WWWScene/Q2-2OptionsTogggleGroup-select.png)
+![Screenshot](Screenshot/WWWScene/Q2-2OptionsTogggleGroup-Select.png)
 
 ### Q3-2OptionsTogggleGroup
 ![Screenshot](Screenshot/WWWScene/Q3-2OptionsTogggleGroup-select.png)
