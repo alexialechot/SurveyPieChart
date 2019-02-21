@@ -78,4 +78,4 @@ Same Script
 <br>
 ***
 <br>
-&copy; 2018 [Alexia Lechot](http://uxmilk.co)
+&copy; 2018 [Alexia Lechot](https://uxmilk.co)
