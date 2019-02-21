@@ -76,4 +76,6 @@ Same Script
 ![Screenshot](Screenshot/WWWScene/Q4-4OptionsTogggle.png)
 
 <br>
-&copy; 2018 [AlexLechot](http://alexlechot.ch)
+***
+<br>
+&copy; 2018 [Alexia Lechot](http://uxmilk.co)
