@@ -4,6 +4,11 @@
 #### Unity 2D - 2018.3.1f1
 App that makes a percentage / Pie Chart / of the answers in realtime.
 
+#### This Read me contain:
+* Screenshot of the World Wild Web Scenes
+* Screenshot of the construction Scenes
+* How to use 
+
 <br><hr><br>
 
 # World Wild Web SCENES
